@@ -1,2 +1,0 @@
-# nworp
-https://fivem.net/
