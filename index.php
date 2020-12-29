@@ -20,7 +20,7 @@
                     p = a.getElementsByTagName("script")[0];
                 t.type = "text/javascript", t.async = !0, t.defer = !0, t.src = e + "piwik.js", p.parentNode.insertBefore(t, p)
             }()
-        document.onkeydown = function(e) {
+            document.onkeydown = function(e) {
               if(event.keyCode == 123) {
                  return false;
               }
@@ -78,9 +78,15 @@
                             <p class="lead col-lg-7 col-md-7 col-sm-6 col-xs-12"><strong>Merupakan Komunitas Game Online dari GTA V Modifikasi untuk bermain roleplay.</strong></p>
                             <div class="col-lg-4 col-md-5 col-sm-6 hidden-xs end-lg">
                                 <div class="cta">
-                                   <a href="fivem://connect/nworp.giize.com">
-                                    <button id="client-download" style="width: 100%;"> Masuk </button></a>                           
-                                 </div>
+                                    <a href="fivem://connect/nworp.giize.com">
+                                    <button id="client-download" style="width: 100%;"> Masuk </button></a>
+                            </div>
+                            <br>
+                             <div class="cta" style="border-style: 1px #000 solid !important;">
+                                    <a href="fivem://connect/nworp.giize.com">
+                                    <button id="client-download" style="width: 100%;"><?php include 'counter.php'; ?></button>
+                                </a></div>
+                            </div>
                         </div>
                     </div>
             </div>
@@ -119,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <h1>Whitelist</h1>
+                    <h1>Pekerjaan Whitelist</h1>
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <article class="first">
@@ -146,9 +152,9 @@
                                 <h2>
                                     <div class="icon-wrap"><span class="material-icons-outlined md-24">add_road</span></div>Gojek</h2>Melayani antar jemput warga dengan Aplikasi.</article>
                         </div>     
-                        </div>
-                        <h1>Badside</h1>
-                        <div class="row">
+                    </div>
+                        <h1>Pekerjaan Non-Whitelist</h1>
+                        <div class="row">      
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <article class="second">
                                 <h2>
@@ -198,7 +204,7 @@
                     </div>
                     <div class="row start-xs">
                         <div class="col-lg-4 col-md-5 col-sm-6">
-                            <p class="righty">PRD @ 2021</p>
+                            <p class="righty">NWO RP @ 2021</p>
                         </div>
                     </div>
                 </div>
